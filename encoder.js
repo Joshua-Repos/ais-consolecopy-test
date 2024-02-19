@@ -1,115 +1,114 @@
-let input = prompt("Enter your input")
-let answer;
-switch (input) {
+let req = prompt("Enter your input")
+let res = "";
+switch (req) {
     case "a":
-         answer.concat("b");
+        res.concat("b");
         break
     case "b":
-        answer.concat("d");
+        res.concat("d");
         break
     case "c":
-        answer.concat("f");
+        res.concat("f");
         break
     case "d":
-        answer.concat("h");
+        res.concat("h");
         break
     case "e":
-        answer.concat("j");
+        res.concat("j");
         break
     case "f":
-         answer.concat("l");
+        res.concat("l");
         break
     case "g":
-        answer.concat("n");
+        res.concat("n");
         break
     case "h":
-        answer.concat("p");
+        res.concat("p");
         break
     case "i":
-        answer.concat("r");
+        res.concat("r");
         break
     case "j":
-        answer.concat("t");
+        res.concat("t");
         break
     case "k":
-        answer.concat("k");
+        res.concat("k");
         break
     case "l":
-        answer.concat("x");
+        res.concat("x");
         break
     case "m":
-        answer.concat("z");
+        res.concat("z");
         break
     case "n":
-        answer.concat("y");
+        res.concat("y");
         break
     case "o":
-        answer.concat("w");
+        res.concat("w");
         break
     case "p":
-         answer.concat("u");
+        res.concat("u");
         break
     case "q":
-         answer.concat("s");
+        res.concat("s");
         break
     case "r":
-        answer.concat("q");
+        res.concat("q");
         break
     case "s":
-         answer.concat("o");
+        res.concat("o");
         break
     case "t":
-        answer.concat("m");
+        res.concat("m");
         break
     case "u":
-         answer.concat("k");
+        res.concat("k");
         break
     case "v":
-         answer.concat("i");
+        res.concat("i");
         break
     case "w":
-         answer.concat("g");
+        res.concat("g");
         break
     case "x":
-        answer.concat("e");
+        res.concat("e");
         break
     case "y":
-        answer.concat("c");
+        res.concat("c");
         break
     case "z":
-        answer.concat("a");
+        res.concat("a");
         break
     case "0":
-         answer.concat(1);
+        res.concat(1);
         break
     case "1":
-        answer.concat(3);
+        res.concat(3);
         break
     case "2":
-        answer.concat(6);
+        res.concat(6);
         break
     case "3":
-        answer.concat(7);
+        res.concat(7);
         break
     case "4":
-        answer.concat(9);
+        res.concat(9);
         break
     case "5":
-        answer.concat(8);
+        res.concat(8);
         break
     case "6":
-        answer.concat(6);
+        res.concat(6);
         break
     case "7":
-        answer.concat(4);
+        res.concat(4);
         break
     case "8":
-        answer.concat(2);
+        res.concat(2);
         break
     case "9":
-        answer.concat(0);
+        res.concat(0);
         break
 
 }
-let result = answer.concat(input);
-alert(answer)
+alert(res);
